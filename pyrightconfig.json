@@ -1,0 +1,7 @@
+{
+  "typingsPath": "./typings",
+  "reportMissingTypeStubs": "error",
+  "ignore": ["./typings"],
+  "strict": ["./liquid_crystal_server"],
+  "exclude": ["setup.py"]
+}
