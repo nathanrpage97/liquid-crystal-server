@@ -12,6 +12,7 @@ aiohttp = "*"
 aiojobs = "*"
 dataclasses-json = "*"
 aiohttp-cors = "*"
+liquid-crystal = {git = "git://github.com/nathanrpage97/liquid-crystal.git",ref = "v0.0.1"}
 
 [requires]
 python_version = "3.8"

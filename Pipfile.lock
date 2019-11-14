@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "30e13a1f25f8cd407a4a7992fed1af175f4f6cdbbf1f61ffafd8852b40e45f51"
+            "sha256": "d95fd8f2a2c2bdbbd824766965a24573d348c7184fbcfc4d61aa6c1fbaa9e046"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -85,6 +85,10 @@
                 "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
             ],
             "version": "==2.8"
+        },
+        "liquid-crystal": {
+            "git": "git://github.com/nathanrpage97/liquid-crystal.git",
+            "ref": "2f75ec99f9c33c973d54e23a3dea398c0185d390"
         },
         "marshmallow": {
             "hashes": [
