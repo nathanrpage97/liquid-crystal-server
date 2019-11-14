@@ -21,3 +21,10 @@ async def display_text(request: Request) -> Response:
         return Response(status=204)
     except Exception as error:
         return Response(status=400, text=f'Failed to display text: {error}')
+
+
+@atomic
+@routes.post('/api/v1/clear')
+async def clear_lcd(request: Request) -> Response:
+    lcd.clear()
+    return Response(status=204)
