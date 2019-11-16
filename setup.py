@@ -10,5 +10,6 @@ setup(
     license='MIT',
     url='https://github.com/nathanrpage97/liquid-crystal',
     keywords='LCD display I2C server',
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=['aiohttp', 'dataclasses-json', 'aiohttp-cors', 'aiojobs', 'liquid-crystal @ https://github.com/nathanrpage97/liquid-crystal/archive/v0.0.1.zip'],
 )
