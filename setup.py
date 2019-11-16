@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='liquid_crystal_server',
-    version='0.0.2',
+    version='0.0.3',
     author="Nathan Page",
     author_email='nathanrpage97@gmail.com',
     description='Pure python REST server to control an I2C LCD',
